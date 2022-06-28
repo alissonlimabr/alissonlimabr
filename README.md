@@ -1,6 +1,8 @@
-### alissonlimabr
+<div>
+  <h1 align="center">alissonlimabr</h1>
 
-- 🌱 I’m currenty learning Angular/Spring boot
+  <p align="center">- 🌱 I’m currenty learning Angular/Spring boot/</p>
+   </div>
 
 <div align="center">
   <a href="https://github.com/alissonlimabr">

@@ -2,7 +2,7 @@
 
 <h1>
     <a href="https://github.com/alissonlimabr">
-     <img align="center" alt="alissonlimabr" width="36px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+     <img align="center" alt="alissonlimabr" width="36px" src="https://media1.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif?cid=ecf05e472dn9ibwtf9czm1rfs7icyz2avlb8pph666unq8pj&ep=v1_stickers_search&rid=giphy.gif"></a>
     <span>alissonlimabr</span>
 </h1>
 
@@ -17,7 +17,8 @@
   <a href = "mailto:alissonlimabr.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <br>
 
-## 💻 Projects
+
+## <img src="https://media4.giphy.com/media/SHjOSDkKZ18qOHA5B5/giphy.gif?cid=ecf05e472dn9ibwtf9czm1rfs7icyz2avlb8pph666unq8pj&ep=v1_stickers_search&rid=giphy.gif" width ="35"><b> Projects </b>
 * [MotoVoice - (Motorola product feedback and collection platform)](https://motovoice.vercel.app/features)
 * [Reset Password - (Password Reset Module)](https://forgot-password-lyart.vercel.app/)
 * [Event Plataform - (Platform for hosting videos and classes)](https://ignitelab-reactjs.vercel.app/)

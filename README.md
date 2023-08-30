@@ -10,8 +10,8 @@
 <br>
  I am very curious about technology, AI, science fiction works, and astronomy.</p>
 
-<h3 align="left">Connect with me</h3>
-  <a href="https://www.linkedin.com/in/alisson-ml" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"   target="_blank"></a> 
+<h3>Connect with me</h3>
+    <a href="https://www.linkedin.com/in/alisson-ml" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"   target="_blank"></a> 
   <a href="https://www.instagram.com/alisson_ml" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="#" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:amlxd5@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
@@ -67,7 +67,6 @@
 
 - **Cloud Hosting**:
   
-  ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
   ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
   ![Railway](https://img.shields.io/badge/railway-121013?style=for-the-badge&logo=railway&logoColor=white)
   ![Vscode](https://img.shields.io/badge/vercel-121013?style=for-the-badge&logo=vercel&logoColor=white)
@@ -76,7 +75,7 @@
 <br>   
 
 - **Softwares and Tools**:
-- 
+  
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
   ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
   ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -85,11 +84,12 @@
 <br>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
- 
-<div align="center">
 
-![Alisson Lima GitHub stats](https://github-readme-stats.vercel.app/api?username=alissonlimabr&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&hide_progress=false)
+<br>
+
+<div align="center">
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=alissonlimabr&include_all_commits=true" src= "https://github.com/alissonlimabr/github-readme-stats" align = "center" />
+<img height="180em" src= "https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&layout=compact" align = "center"/>
 
 </a>
 <picture>
@@ -99,3 +99,8 @@
 </picture>
 </div>
 
+<br>
+
+Credit: [Alisson Lima](https://github.com/alissonlimabr)
+
+Last Edited on: 30/08/2023

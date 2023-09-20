@@ -89,7 +89,7 @@
 <br>
 
 <div align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=alissonlimabr&include_all_commits=true" src= "https://github.com/alissonlimabr/github-readme-stats" align = "center" />
+<img height="180em" src="https://streak-stats.demolab.com/?user=alissonlimabr&theme=dark)](https://git.io/streak-stats" align = "center" />
 <img height="180em" src= "https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&layout=compact" align = "center"/>
 
 </a>

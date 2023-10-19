@@ -19,8 +19,10 @@
 
 
 ## <img src="https://media4.giphy.com/media/SHjOSDkKZ18qOHA5B5/giphy.gif?cid=ecf05e472dn9ibwtf9czm1rfs7icyz2avlb8pph666unq8pj&ep=v1_stickers_search&rid=giphy.gif" width ="35"><b> Projects </b>
-* [MotoVoice - (Motorola product feedback and collection platform)](https://motovoice.vercel.app/features)
-* [Reset Password - (Password Reset Module)](https://forgot-password-lyart.vercel.app/)
+* [Portfolio - ( Basic personal portfolio developed in HTML/SCSS)](https://alissonlimadev.com)
+* [MotoVoice - (Motorola product feedback and collection platform)](https://motovoice.alissonlimadev.com)
+* [Login JWT - (Login with authentication Jwt)](https://loginjwt.alissonlimadev.com/)
+* [Reset Password - (Password Reset Module)](https://resetpassword.alissonlimadev.com)
 * [Event Plataform - (Platform for hosting videos and lessons)](https://ignitelab-reactjs.vercel.app/)
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -68,9 +70,11 @@
 
 - **Cloud Hosting**:
   
+  ![AWS](https://img.shields.io/badge/AWS-121013?style=for-the-badge&logo=amazon-aws&logoColor=white)
+  ![Azure](https://img.shields.io/badge/azure-121013?style=for-the-badge&logo=microsoftazure&logoColor=white)
   ![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
   ![Railway](https://img.shields.io/badge/railway-121013?style=for-the-badge&logo=railway&logoColor=white)
-  ![Vscode](https://img.shields.io/badge/vercel-121013?style=for-the-badge&logo=vercel&logoColor=white)
+  ![Vercel](https://img.shields.io/badge/vercel-121013?style=for-the-badge&logo=vercel&logoColor=white)
 
   
 <br>   
@@ -104,4 +108,4 @@
 
 Credit: [Alisson Lima](https://github.com/alissonlimabr)
 
-Last Edited on: 30/08/2023
+Last Edited on: 19/10/2023

@@ -21,9 +21,9 @@
 ## <img src="https://media4.giphy.com/media/SHjOSDkKZ18qOHA5B5/giphy.gif?cid=ecf05e472dn9ibwtf9czm1rfs7icyz2avlb8pph666unq8pj&ep=v1_stickers_search&rid=giphy.gif" width ="35"><b> Projects </b>
 * [Portfolio - ( Basic personal portfolio developed in HTML/SCSS)](https://alissonlimadev.com)
 * [MotoVoice - (Motorola product feedback and collection platform)](https://motovoice.alissonlimadev.com)
-* [Login JWT - (Login with authentication Jwt)](https://loginjwt.alissonlimadev.com/)
-* [Reset Password - (Password Reset Module)](https://resetpassword.alissonlimadev.com)
-* [Event Plataform - (Platform for hosting videos and lessons)](https://ignitelab-reactjs.vercel.app/)
+* [Login JWT - (Login with authentication Jwt)](https://github.com/alissonlimabr/microservice-login-jwt)
+* [Reset Password - (Password Reset Module)](https://github.com/alissonlimabr/forgotPassword)
+* [Event Plataform - (Platform for hosting videos and lessons)](https://github.com/alissonlimabr/event-plataform-reactjs)
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

@@ -19,7 +19,7 @@
 
 
 ## <img src="https://media4.giphy.com/media/SHjOSDkKZ18qOHA5B5/giphy.gif?cid=ecf05e472dn9ibwtf9czm1rfs7icyz2avlb8pph666unq8pj&ep=v1_stickers_search&rid=giphy.gif" width ="35"><b> Projects </b>
-* [Portfolio - ( Personal portfolio developed in Angular/Angular Material)](https://alissonlimadev.com)
+* [Portfolio - ( Personal portfolio developed in Angular/Angular Material)](https://www.alissonlimadev.com)
 * [MotoVoice - (Motorola product feedback and collection platform)](https://motovoice.alissonlimadev.com)
 * [Login JWT - (Login with authentication Jwt)](https://github.com/alissonlimabr/microservice-login-jwt)
 * [Reset Password - (Password Reset Module)](https://github.com/alissonlimabr/forgotPassword)
@@ -108,4 +108,4 @@
 
 Credit: [Alisson Lima](https://github.com/alissonlimabr)
 
-Last Edited on: 10/05/2024
+Last Edited on: 08/08/2024

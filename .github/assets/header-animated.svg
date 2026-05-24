@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 640 280" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1E1830"/>
+      <stop offset="100%" stop-color="#0A0814"/>
+    </radialGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Clip circular avatar: r=62 -->
+    <clipPath id="clip-avatar">
+      <circle cx="548" cy="134" r="62"/>
+    </clipPath>
+    <clipPath id="clip-main"><rect width="640" height="280"/></clipPath>
+    <clipPath id="clip-marquee"><rect x="18" y="196" width="370" height="22"/></clipPath>
+    <linearGradient id="fade-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0814" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0A0814" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0814" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0A0814" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="div-line" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#A855F7" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#A855F7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="280" fill="url(#bg)" clip-path="url(#clip-main)"/>
+  <rect class="scan" x="0" y="0" width="640" height="1.5" fill="#A855F7" opacity="0.2"/>
+
+  <g class="orb-a"><ellipse cx="150" cy="80" rx="120" ry="90" fill="url(#orb1)"/></g>
+  <g class="orb-b"><ellipse cx="510" cy="190" rx="100" ry="80" fill="url(#orb2)"/></g>
+
+  <!-- Constelações de fundo -->
+  <g class="const-a" opacity="0.5">
+    <line x1="310" y1="28" x2="358" y2="52" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="358" y1="52" x2="400" y2="38" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="400" y1="38" x2="432" y2="62" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="432" y1="62" x2="415" y2="90" stroke="#7C3AED" stroke-width="0.7"/>
+    <circle cx="310" cy="28"  r="2.2" fill="#A855F7" filter="url(#glow-soft)"/>
+    <circle cx="358" cy="52"  r="1.8" fill="#C084FC"/>
+    <circle cx="400" cy="38"  r="2.5" fill="#A855F7" filter="url(#glow-soft)"/>
+    <circle cx="432" cy="62"  r="1.8" fill="#C084FC"/>
+    <circle cx="415" cy="90"  r="2.2" fill="#A855F7" filter="url(#glow-soft)"/>
+  </g>
+  <g class="const-b" opacity="0.4">
+    <line x1="50"  y1="230" x2="90"  y2="210" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="90"  y1="210" x2="128" y2="242" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="128" y1="242" x2="165" y2="228" stroke="#7C3AED" stroke-width="0.7"/>
+    <circle cx="50"  cy="230" r="1.8" fill="#C084FC"/>
+    <circle cx="90"  cy="210" r="2.2" fill="#A855F7" filter="url(#glow-soft)"/>
+    <circle cx="128" cy="242" r="1.8" fill="#C084FC"/>
+    <circle cx="165" cy="228" r="2.0" fill="#A855F7" filter="url(#glow-soft)"/>
+  </g>
+  <g class="const-c" opacity="0.45">
+    <line x1="590" y1="30" x2="622" y2="58" stroke="#7C3AED" stroke-width="0.7"/>
+    <line x1="622" y1="58" x2="608" y2="90" stroke="#7C3AED" stroke-width="0.7"/>
+    <circle cx="590" cy="30" r="2.0" fill="#A855F7" filter="url(#glow-soft)"/>
+    <circle cx="622" cy="58" r="2.5" fill="#C084FC" filter="url(#glow-soft)"/>
+    <circle cx="608" cy="90" r="1.8" fill="#A855F7"/>
+  </g>
+  <circle class="star" cx="240" cy="18"  r="1.3" fill="#C084FC"/>
+  <circle class="star" cx="470" cy="14"  r="1.5" fill="#A855F7"/>
+  <circle class="star" cx="200" cy="265" r="1.3" fill="#C084FC"/>
+  <circle class="star" cx="290" cy="258" r="1.5" fill="#A855F7"/>
+
+  <line x1="0" y1="70"  x2="640" y2="70"  stroke="#A855F7" stroke-width="0.3" opacity="0.06"/>
+  <line x1="0" y1="140" x2="640" y2="140" stroke="#A855F7" stroke-width="0.3" opacity="0.06"/>
+  <line x1="0" y1="210" x2="640" y2="210" stroke="#A855F7" stroke-width="0.3" opacity="0.06"/>
+  <rect x="444" y="30" width="1.5" height="220" fill="url(#div-line)" rx="1"/>
+
+  <!-- ===== LADO DIREITO: Avatar circular r=62 ===== -->
+
+  <!-- Anel orbital fino r=82 (espaço de 20px acima do círculo) -->
+  <circle cx="548" cy="134" r="82"
+          fill="none" stroke="#5B21B6" stroke-width="0.9" opacity="0.5"/>
+
+  <!-- Planetinha orbitando no topo do anel: (548, 134-82)=(548,52) -->
+  <g class="planet-orbit">
+    <circle cx="548" cy="52" r="5" fill="#A855F7" filter="url(#glow)"/>
+    <circle cx="548" cy="52" r="2.5" fill="#E9D5FF"/>
+  </g>
+
+  <!-- Fundo escuro (fallback) -->
+  <circle cx="548" cy="134" r="62" fill="#14101F"/>
+  <!-- Círculo principal AL -->
+  <circle cx="548" cy="134" r="62" fill="#14101F"/>
+  <text x="548" y="143"
+        text-anchor="middle"
+        font-family="'Fira Code',monospace"
+        font-size="30" font-weight="700"
+        fill="#A855F7" filter="url(#glow)"
+        letter-spacing="4">AL</text>
+
+  <!-- Borda brilhante -->
+  <circle cx="548" cy="134" r="62" fill="none" stroke="#7C3AED" stroke-width="2"/>
+
+
+  <!-- Badge ONLINE — diagonal inferior direita, dentro do viewBox -->
+  <!-- r=62, diagonal 45°: +44,+44 → (592,178). Badge: x=560 w=72 → max=632 ✓ -->
+  <g class="badge-online">
+    <rect x="560" y="178" width="72" height="20" rx="10"
+          fill="#0a1f12" stroke="#16a34a" stroke-width="1.2"/>
+    <circle class="status-dot" cx="572" cy="188" r="4" fill="#22c55e" filter="url(#glow-soft)"/>
+    <text x="602" y="192"
+          text-anchor="middle"
+          font-family="'Fira Code',monospace"
+          font-size="9.5" font-weight="600"
+          fill="#4ADE80" letter-spacing="0.8">ONLINE</text>
+  </g>
+
+  <!-- ===== LADO ESQUERDO ===== -->
+  <g class="prompt-bar">
+    <rect x="16" y="22" width="210" height="24" rx="6"
+          fill="#1a1428" stroke="#3B1F6E" stroke-width="1"/>
+    <circle class="prompt-dot" cx="29" cy="34" r="4.5" fill="#A855F7" filter="url(#glow-soft)"/>
+    <text x="40" y="38"
+          font-family="'Fira Code',monospace"
+          font-size="11" fill="#8B859B" letter-spacing="0.3">root@alissonlimadev:~# _</text>
+  </g>
+
+  <g class="name-block">
+    <text x="18" y="110"
+          font-family="'Fira Code',monospace"
+          font-size="32" font-weight="700"
+          fill="#FFFFFF" letter-spacing="1"
+          filter="url(#glow)">Alisson Lima</text>
+    <rect class="cursor" x="268" y="82" width="3" height="30" fill="#A855F7"/>
+  </g>
+
+  <g class="tagline">
+    <text x="18" y="140"
+          font-family="'Fira Code',monospace"
+          font-size="14" fill="#A855F7" letter-spacing="0.5">Full Stack Developer</text>
+  </g>
+
+  <g class="desc">
+    <text x="18" y="164"
+          font-family="'Fira Code',monospace"
+          font-size="11" fill="#8B859B">Soluções escaláveis · APIs REST · Cloud</text>
+  </g>
+
+  <rect x="18" y="196" width="370" height="22" fill="#0A0814" opacity="0.5" rx="3"/>
+  <g clip-path="url(#clip-marquee)">
+    <g class="marquee-track">
+      <text y="211" font-family="'Fira Code',monospace" font-size="10.5">
+        <tspan x="20" fill="#8B859B">Angular</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">TypeScript</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Spring Boot</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Node.js</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Django</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Python</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Java</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">PostgreSQL</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Oracle DB</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Docker</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">AWS</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Azure</tspan><tspan fill="#5B21B6">  ❖  </tspan>
+        <tspan fill="#8B859B">Angular</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">TypeScript</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Spring Boot</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Node.js</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Django</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Python</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Java</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">PostgreSQL</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Oracle DB</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Docker</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">AWS</tspan><tspan fill="#5B21B6"> · </tspan>
+        <tspan fill="#8B859B">Azure</tspan><tspan fill="#5B21B6">  ❖  </tspan>
+      </text>
+    </g>
+  </g>
+  <rect x="18"  y="196" width="30" height="22" fill="url(#fade-left)"/>
+  <rect x="358" y="196" width="30" height="22" fill="url(#fade-right)"/>
+
+  <style>
+    @keyframes scan {
+      0%{transform:translateY(0);opacity:.2} 85%{opacity:.2} 100%{transform:translateY(280px);opacity:0}
+    }
+    @keyframes float-a { 0%,100%{transform:translate(0,0)} 50%{transform:translate(-8px,10px)} }
+    @keyframes float-b { 0%,100%{transform:translate(0,0)} 50%{transform:translate(7px,-9px)} }
+    @keyframes pulse-star  { 0%,100%{opacity:.8} 50%{opacity:.15} }
+    @keyframes twinkle-a   { 0%,100%{opacity:.50} 50%{opacity:.18} }
+    @keyframes twinkle-b   { 0%,100%{opacity:.40} 50%{opacity:.12} }
+    @keyframes twinkle-c   { 0%,100%{opacity:.45} 50%{opacity:.15} }
+    @keyframes orbit-planet{ from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+    @keyframes blink-cursor{ 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes blink-dot   { 0%,49%{opacity:1} 50%,100%{opacity:.2} }
+    @keyframes fade-in-up  { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes marquee     { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+    @keyframes pulse-online{ 0%,100%{r:4;opacity:1} 50%{r:6.5;opacity:.4} }
+    @keyframes badge-glow  {
+      0%,100%{filter:drop-shadow(0 0 3px #16a34a55)}
+      50%    {filter:drop-shadow(0 0 9px #16a34acc)}
+    }
+    @keyframes prompt-glow {
+      0%,100%{filter:drop-shadow(0 0 2px #7C3AED33)}
+      50%    {filter:drop-shadow(0 0 6px #A855F799)}
+    }
+
+    .scan        { animation: scan 5s linear infinite; }
+    .orb-a       { animation: float-a 8s ease-in-out infinite; transform-origin:150px 80px; }
+    .orb-b       { animation: float-b 10s ease-in-out infinite; transform-origin:510px 190px; }
+    .star        { animation: pulse-star 3s ease-in-out infinite; }
+    .star:nth-child(2){animation-delay:.7s}
+    .star:nth-child(3){animation-delay:1.4s}
+    .star:nth-child(4){animation-delay:2.1s}
+    .const-a     { animation: twinkle-a 4.5s ease-in-out infinite; }
+    .const-b     { animation: twinkle-b 5.5s ease-in-out infinite 1s; }
+    .const-c     { animation: twinkle-c 4s  ease-in-out infinite 0.5s; }
+    .planet-orbit{
+      transform-origin: 548px 134px;
+      animation: orbit-planet 8s linear infinite;
+    }
+    .cursor      { animation: blink-cursor 1s step-end infinite; }
+    .prompt-dot  { animation: blink-dot 1s step-end infinite; }
+    .prompt-bar  { animation: prompt-glow 2.5s ease-in-out infinite; }
+    .name-block  { animation: fade-in-up .8s ease-out .2s both; }
+    .tagline     { animation: fade-in-up .8s ease-out .5s both; }
+    .desc        { animation: fade-in-up .8s ease-out .7s both; }
+    .marquee-track { animation: marquee 22s linear infinite; }
+    .status-dot  { animation: pulse-online 2s ease-in-out infinite; }
+    .badge-online{ animation: badge-glow 2s ease-in-out infinite; }
+  </style>
+</svg>

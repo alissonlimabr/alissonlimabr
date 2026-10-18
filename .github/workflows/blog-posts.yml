@@ -1,0 +1,29 @@
+name: Últimos artigos do blog
+
+on:
+  # uma vez por dia; o RSS é atualizado a cada deploy do site
+  schedule:
+    - cron: "0 9 * * *"
+
+  # permite rodar manualmente
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # lê o RSS do site e reescreve a lista entre os marcadores BLOG-POST-LIST no README
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://www.alissonlimadev.com/rss.xml"
+          max_post_count: 3
+          # cada artigo numa citação: título em negrito e resumo na linha de baixo
+          template: "> **[$title]($url)**<br/>$description$newline$newline"
+          commit_message: "chore: atualiza últimos artigos do blog"

@@ -65,9 +65,6 @@ Desenvolvedor Full Stack, graduado em Análise e Desenvolvimento de Sistemas, c
 
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-%2313BEF9.svg?style=for-the-badge&logo=portainer&logoColor=white)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -77,15 +74,9 @@ Desenvolvedor Full Stack, graduado em Análise e Desenvolvimento de Sistemas, c
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=alissonlimabr&theme=dark&hide_border=true&background=0A0814&ring=7C3AED&fire=A855F7&currStreakLabel=A855F7&sideLabels=8B859B&sideNums=C9A1F0&dates=8B859B"/>
-  <img src="https://streak-stats.demolab.com/?user=alissonlimabr&theme=dark&hide_border=true&background=0A0814&ring=7C3AED&fire=A855F7&currStreakLabel=A855F7&sideLabels=8B859B&sideNums=C9A1F0&dates=8B859B" alt="GitHub Streak"/>
-</picture>
+<img src="https://streak-stats.demolab.com/?user=alissonlimabr&theme=dark&hide_border=true&background=0A0814&ring=7C3AED&fire=A855F7&currStreakLabel=A855F7&sideLabels=8B859B&sideNums=C9A1F0&dates=8B859B" alt="GitHub Streak"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&layout=compact&theme=dark&hide_border=true&bg_color=0A0814&title_color=A855F7&text_color=C9A1F0"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&layout=compact&theme=dark&hide_border=true&bg_color=0A0814&title_color=A855F7&text_color=C9A1F0" alt="Top Languages"/>
-</picture>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alissonlimabr&layout=compact&theme=dark&hide_border=true&bg_color=0A0814&title_color=A855F7&text_color=C9A1F0" alt="Top Languages"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alissonlimabr/alissonlimabr/output/github-contribution-grid-snake-dark.svg">
@@ -97,7 +88,21 @@ Desenvolvedor Full Stack, graduado em Análise e Desenvolvimento de Sistemas, c
 
 ---
 
-## **[ 04 ]** CONTATO
+## **[ 04 ]** ÚLTIMOS ARTIGOS
+
+<!-- BLOG-POST-LIST:START -->
+> **[Narração de vídeos com voz neural de graça: edge-tts como alternativa ao Azure](https://www.alissonlimadev.com/blog/narracao-de-videos-com-voz-neural-de-graca-edge-tts-como-alternativa-ao-azure)**<br/>Narre vídeos em português com a voz neural Antônio, do Edge, usando o edge-tts: gere o áudio, ajuste a velocidade, crie legendas e junte tudo ao vídeo com o ffmpeg.
+
+> **[Navegação agêntica no Lighthouse: como preparar sites para agentes de IA](https://www.alissonlimadev.com/blog/navegacao-agentica-no-lighthouse-como-preparar-sites-para-agentes-de-ia)**<br/>Agentes de IA precisam compreender interfaces e executar ações. Veja como o Lighthouse avalia acessibilidade, CLS, llms.txt e WebMCP.
+
+> **[Microsoft Foundry reúne modelos e agentes para acelerar aplicações de IA no Azure](https://www.alissonlimadev.com/blog/microsoft-foundry-reune-modelos-e-agentes-para-acelerar-aplicacoes-de-ia-no-azure)**<br/>Plataforma da Microsoft concentra modelos, agentes, ferramentas e integrações para levar recursos de IA a aplicações reais.
+<!-- BLOG-POST-LIST:END -->
+
+➡️ [Ver todos no blog](https://www.alissonlimadev.com/blog)
+
+---
+
+## **[ 05 ]** CONTATO
 
 <div align="center">
 
@@ -111,5 +116,5 @@ Desenvolvedor Full Stack, graduado em Análise e Desenvolvimento de Sistemas, c
 ---
 
 <p align="center">
-  <sub>Crafted with care by <a href="https://github.com/alissonlimabr" target="_blank">Alisson Lima</a></sub>
+  <sub>Feito com cuidado por <a href="https://github.com/alissonlimabr" target="_blank">Alisson Lima</a></sub>
 </p>

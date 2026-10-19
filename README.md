@@ -90,12 +90,12 @@ Desenvolvedor Full Stack, graduado em Análise e Desenvolvimento de Sistemas, c
 
 ## **[ 04 ]** ÚLTIMOS ARTIGOS
 
-<!-- BLOG-POST-LIST:START -->
-> **[Narração de vídeos com voz neural de graça: edge-tts como alternativa ao Azure](https://www.alissonlimadev.com/blog/narracao-de-videos-com-voz-neural-de-graca-edge-tts-como-alternativa-ao-azure)**<br/>Narre vídeos em português com a voz neural Antônio, do Edge, usando o edge-tts: gere o áudio, ajuste a velocidade, crie legendas e junte tudo ao vídeo com o ffmpeg.
+<!-- BLOG-POST-LIST:START -->> **[Narração de vídeos com voz neural de graça: edge-tts como alternativa ao Azure](https://www.alissonlimadev.com/blog/narracao-de-videos-com-voz-neural-de-graca-edge-tts-como-alternativa-ao-azure)**<br/>Narre vídeos em português com a voz neural Antônio, do Edge, usando o edge-tts: gere o áudio, ajuste a velocidade, crie legendas e junte tudo ao vídeo com o ffmpeg.
 
 > **[Navegação agêntica no Lighthouse: como preparar sites para agentes de IA](https://www.alissonlimadev.com/blog/navegacao-agentica-no-lighthouse-como-preparar-sites-para-agentes-de-ia)**<br/>Agentes de IA precisam compreender interfaces e executar ações. Veja como o Lighthouse avalia acessibilidade, CLS, llms.txt e WebMCP.
 
 > **[Microsoft Foundry reúne modelos e agentes para acelerar aplicações de IA no Azure](https://www.alissonlimadev.com/blog/microsoft-foundry-reune-modelos-e-agentes-para-acelerar-aplicacoes-de-ia-no-azure)**<br/>Plataforma da Microsoft concentra modelos, agentes, ferramentas e integrações para levar recursos de IA a aplicações reais.
+
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [Ver todos no blog](https://www.alissonlimadev.com/blog)

@@ -26,4 +26,6 @@ jobs:
           max_post_count: 3
           # cada artigo numa citação: título em negrito e resumo na linha de baixo
           template: "> **[$title]($url)**<br/>$description$newline$newline"
+          # quebra de linha após o marcador de início, para o primeiro artigo não ficar na linha do comentário
+          tag_post_pre_newline: true
           commit_message: "chore: atualiza últimos artigos do blog"
